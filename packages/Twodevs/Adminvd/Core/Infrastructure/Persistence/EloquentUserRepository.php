@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+namespace TwoDevs\Adminvd\Core\Infrastructure\Persistence;
+
 use TwoDevs\Adminvd\App\Models\User;
 use TwoDevs\Adminvd\core\Domain\User\UserRepository;
 use TwoDevs\Adminvd\src\App\Repositories\UserRepository as BaseEloquentUserRepository;
