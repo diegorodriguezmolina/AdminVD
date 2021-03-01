@@ -1,0 +1,32 @@
+
+{
+    "name": "Twodevs/Adminvd",
+    "license": "MIT",
+    "description": "",
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "Diego Rodríguez",
+            "email": "diegorodriguezmolina@gmail.com"
+        },
+        {
+            "name": "Victor Quirós",
+            "email": "victorquirosmayer@gmail.com"
+        }
+    ],
+"autoload": {
+        "psr-4": {
+            "Twodevs\\Adminvd\\": "src",
+            "Twodevs\\Adminvd\\App\\": "src/app",
+            "Twodevs\\Adminvd\\Database\\Seeds\\": "src/database/seeds"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Twodevs\\Adminvd\\AdminvdServiceProvider"
+            ]
+        }
+    }
+}
